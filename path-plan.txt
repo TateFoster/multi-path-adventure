@@ -1,0 +1,16 @@
+pathTier1
+First choice in dark room can choose 4 options
+Path of strength: strength=true
+Path of knowledge: knowledge=true
+Path of flexibility: flexibility=true
+Path of rejection: all=false
+
+pathTier2
+Entrance of Cave 3 options
+Campfire: torch = true pathTier2 no first choice
+Left tunnel:  if torch=false: pathTier3Death1, if torch=true: pathTier3a
+Right tunnel: if torch=true: pathTier3Death2, if torch=true: pathTier3b
+
+
+pathTier3a
+Left Path Falling Rocks different descriptions based on strength, knowledge or flexibility
