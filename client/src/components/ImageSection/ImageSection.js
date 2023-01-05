@@ -1,10 +1,13 @@
 import "./ImageSection.css";
+import pedestal from "./Images/Pedestal.png";
 
 export default function ImageSection() {
 	let image = () => {
 		switch (location) {
-			case (location = placeholder):
-				return <placeholder />;
+			case (location = "pedestal"):
+				return pedestal;
+            break;
+            case default:
 		}
 	};
 	return (
