@@ -1,10 +1,12 @@
 import "./Text.css";
+import Pedestal from "./Locations/Pedestal";
 
 export default function Text() {
-	return (
-		<div className="textArea">
-			<section className="writingArea"></section>
-			<section className="choicesArea"></section>
-		</div>
-	);
+	let text = () => {
+		switch (location) {
+			case (location = pedestal):
+				return <Pedestal />;
+		}
+	};
+	return <div className="textArea">{text}</div>;
 }
