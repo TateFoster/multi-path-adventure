@@ -4,8 +4,9 @@ import Pedestal from "./Locations/Pedestal";
 export default function Text() {
 	let text = () => {
 		switch (location) {
-			case (location = pedestal):
+			case (location = "pedestal"):
 				return <Pedestal />;
+			case (location = )
 		}
 	};
     
