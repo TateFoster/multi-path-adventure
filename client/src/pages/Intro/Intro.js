@@ -6,6 +6,7 @@ export default function Intro() {
 	};
 	return (
 		<div className="introArea">
+			<h2>Will you grasp your destiny?</h2>
 			<section className="options">
 				<div className="button">Log In</div>
 				<div className="button">Start Game</div>

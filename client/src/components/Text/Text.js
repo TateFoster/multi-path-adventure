@@ -8,5 +8,6 @@ export default function Text() {
 				return <Pedestal />;
 		}
 	};
+    
 	return <div className="textArea">{text}</div>;
 }

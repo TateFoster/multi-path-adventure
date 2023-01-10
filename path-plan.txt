@@ -13,4 +13,5 @@ Right tunnel: if torch=true: pathTier3Death2, if torch=true: pathTier3b
 
 
 pathTier3a
-Left Path Falling Rocks different descriptions based on strength, knowledge or flexibility
+Left Path Falling Rocks different descriptions based on strength, knowledge or flexibility?
+
