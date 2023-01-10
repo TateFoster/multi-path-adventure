@@ -4,10 +4,11 @@ import pedestal from "./Images/Pedestal.png";
 export default function ImageSection() {
 	let image = () => {
 		switch (location) {
-			case (location = "pedestal"):
+			case "pedestal":
 				return pedestal;
-            break;
-            case default:
+				break;
+			default:
+				return console.log("There has been a mixup in ImageSection locations");
 		}
 	};
 	return (
@@ -16,4 +17,3 @@ export default function ImageSection() {
 		</div>
 	);
 }
-

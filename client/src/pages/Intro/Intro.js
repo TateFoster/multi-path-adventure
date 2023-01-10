@@ -10,6 +10,7 @@ export default function Intro() {
 			<section className="options">
 				<div className="button">Log In</div>
 				<div className="button">Start Game</div>
+				<div className="button">Delete Character</div>
 			</section>
 		</div>
 	);
